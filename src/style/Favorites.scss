@@ -1,0 +1,37 @@
+.favorite-display{
+  text-align: center;
+  color: white;
+  overflow: hidden;
+
+
+  .favorite-info{
+    padding: 4%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 2%;
+    cursor: pointer;
+    width: 15%;
+    .favorite-icon{
+      img{
+      height: 6vh;
+      margin-bottom: 5%;
+      }
+    }
+    .favorite-name{
+      font-weight: bold;
+      font-size: 4vh;
+    }
+    .favorite-temp{
+      font-size: 5vh;
+    }
+    .favorite-state{
+      font-weight: lighter;
+      font-size: 4vh;
+    }
+  }
+
+  .favorite-info:hover{
+    background-color: rgba(40, 50, 74, 0.4);
+    border: 0px;
+  }
+}

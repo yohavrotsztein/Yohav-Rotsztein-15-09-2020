@@ -1,0 +1,48 @@
+.weather{
+
+  .main-weather{
+  }
+
+  .forecast-weather{
+    color: white;
+    background: rgba(40, 50, 74, 0.7);
+    font-weight: lighter;
+    font-size: 5vh;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+  }
+}
+.forecast-info{
+  display: flex;
+  justify-content: space-around;
+  padding: 1% 0;
+}
+
+.forecast-cell{
+  text-align: center;
+  width: 15%;
+
+  .forecast-icon{
+    img{
+      height: 8vh;
+    }
+  }
+  .forecast-day{
+    font-weight: 100;
+    background-color: rgba(0, 94, 96, 0.6);
+    font-size: large;
+    border-radius: 25px;
+    width: 40%;
+    margin: auto;
+  }
+  .forecast-temp{
+    font-size: large;
+    font-weight: bolder;
+    margin: 8% 0;
+  }
+  .forecast-state{
+    font-weight: lighter;
+    font-size: 2vh;
+  }
+}
