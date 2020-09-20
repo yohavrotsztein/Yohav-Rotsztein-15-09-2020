@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiKey = 'keIkcwQuwHMsCqZJawOVskNUec3ErVQq';
+const apiKey = 'zFBbzbCAieCOH1wOpABS61IqpBcZX0Zz';
 
 export const getCitiesOptions = str => {
     return axios.get(`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${apiKey}&q=${str}`);
